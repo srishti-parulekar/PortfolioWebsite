@@ -1,0 +1,53 @@
+:root {
+    --clr-dark:#070a13 ;
+    --clr-light:#f1f5f9 ;
+    --clr-slate400:#94a3b8 ;
+    --clr-slate600:#94a3b8 ;
+    --clr-slate800:#1e293b ;
+    --clr-rose:#f472b6 ;
+    --clr-indigo:#8b5cf6 ;
+}
+
+/*
+rose rgb(244, 114, 182)
+indeigo rgb(139, 92, 246)
+
+*/
+* {
+    margin:0;
+    line-height: calc(1em + 0.5em);
+    
+    /*
+    the line height cannot be fixed since 
+    the the line height should be relative to
+    the font size: as a result we make it variable
+    by using 1em as a deciding factor in line-height
+    */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gambarino', serif;
+    font-family: 'Gambetta', serif;
+}
+
+img, 
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
